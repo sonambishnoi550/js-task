@@ -1,4 +1,4 @@
-// switch statement for current year
+// switch statement for current year //
 let currentYear = new Date().getFullYear();
 switch (new Date().getFullYear()) {
     case 1:
@@ -25,8 +25,7 @@ switch (new Date().getFullYear()) {
 }
 console.log(currentYear); 
 
-
-// if-else  statement 
+// if-else  statement //
 let c = prompt("what is your age")
 c = parseInt("b");
 if (c < 20) {
@@ -38,9 +37,7 @@ if (c < 20) {
 }
 console.log(c);
 
-
-
-// ternary operator
+// ternary operator //
 let marks = prompt('Enter your marks:');
 marks = parseInt(marks); 
 let result = (marks >= 20) ? 'pass' : 'fail';
