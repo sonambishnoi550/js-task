@@ -38,7 +38,7 @@ if (c < 20) {
 console.log(c);
 
 // ternary operator //
-let marks = prompt('Enter your marks:');
-marks = parseInt(marks); 
-let result = (marks >= 20) ? 'pass' : 'fail';
-console.log(`You ${result} the exam.`);
+let age = prompt('Enter your age:');
+age = parseInt(age);
+let eligibility = (age >= 18) ? 'eligible' : 'not eligible';
+console.log(`You are ${eligibility} to vote.`);
